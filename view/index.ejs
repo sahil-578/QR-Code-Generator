@@ -1,0 +1,79 @@
+<%- include('header'); -%>
+
+    <section>
+        <div class="container mb-5">
+            <h1>GENERATE QR CODE NOW !!</h1>
+            <hr />
+
+            <form action="/scan" method="post" class="form">
+                <div class="input-group mb-2">
+                    <span class="input-group-text">Paste (Text or URL)</span>
+                    <textarea class="form-control" aria-label="With textarea" name="text" id="text"></textarea>
+                </div>
+
+                <div class="generate">
+                    <button class="btn btn-primary" type="submit">GENERATE QR</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="container">
+            <div class="heading text-center mb-5">
+                <h1>
+                    <span class="badge bg-primary text-wrap">PRO TIPS</span> Scroll to see
+                    creative QR Codes ideas
+                </h1>
+            </div>
+
+            <div class="cards mb-5">
+                <div class="row">
+                    <div class="col">
+                        <div class="card" style="width: 18rem">
+                            <img src="https://www.qr-code-generator.com/wp-content/themes/qr/new_structure/assets/media/images/qr_codes_on/gallery/business-cards/v2/businesscard-02.png"
+                                class="card-img-top" alt="..." />
+                            <div class="card-body">
+                                <p class="card-text">
+                                    Business Cards
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem">
+                            <img src="https://www.qr-code-generator.com/wp-content/themes/qr/new_structure/assets/media/images/qr_codes_on/gallery/flyers/v2/flyer-02.png"
+                                class="card-img-top" alt="..." />
+                            <div class="card-body">
+                                <p class="card-text">
+                                    Flyers
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem">
+                            <img src="https://www.qr-code-generator.com/wp-content/themes/qr/new_structure/assets/media/images/qr_codes_on/gallery/brochures/v2/brochure-05.png"
+                                class="card-img-top" alt="..." />
+                            <div class="card-body">
+                                <p class="card-text">
+                                    Brochures
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem">
+                            <div class="card-body">
+                                <h2>Checkout more</h2>
+                                <h2>creative QR</h2>
+                                <h2>Code examples</h2>
+                                <br><br><br><br>
+                                <a href="" style="text-decoration: none; font-size: 20px;">View More ></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <%- include('footer'); -%>
